@@ -1,3 +1,8 @@
+.home{
+    text-align: center;
+    margin-top: 3rem;
+}
+
 .products{
     margin: 30px 30px;
     padding: 20px;
@@ -10,7 +15,7 @@
     height: 380px;
     width: 350px;
     padding: 30px;
-    background-color: rgb(221, 226, 232);
+    /* border: 1px solid black; */
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
@@ -51,3 +56,21 @@
     opacity: 0;
     cursor: auto;
 }
+
+.breadcrumbs{
+    font-size: 1.5rem;
+    font-family:monospace;
+    text-transform: capitalize;
+    color: black;
+}
+
+.breadcrumbs  a{
+    text-decoration: none;
+}
+
+.breadcrumbs span {
+    color: red;
+}
+
+
+
